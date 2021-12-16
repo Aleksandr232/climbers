@@ -1,0 +1,99 @@
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto
+}
+
+
+
+.text{
+    padding-top: 30px;
+    background:url(https://www.publicdomainpictures.net/pictures/250000/velka/snow-background-1518253155TyF.jpg) center/cover no-repeat;
+    
+}
+
+.text__subtitle{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.img__grid{
+    width: 370px;
+    margin-top: 20px;
+    border-radius: 10%
+}
+
+.text__sum{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 320px);
+    grid-gap:70px;
+     
+    
+}
+
+.text__grid{
+    width: 370px;
+    font-size: 20px;
+    
+    
+}
+
+.clear{
+    margin-top: 10px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+
+
+
+::marker{
+    content: '';
+    color: white;
+    transition: 0.2s all;
+    cursor: pointer;
+
+}
+
+.clear:hover{
+    content: '';
+    background:whitesmoke;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width:575px) {
+    
+    
+#text__subtitle{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.text__sum{
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    grid-gap: 28px;
+    
+}
+
+
+.text__grid{
+    width: 370px;
+    font-size: 20px;
+}
+
+.text{
+    width: 100%;
+    
+}
+
+
+
+
+}
